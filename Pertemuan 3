@@ -1,0 +1,161 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# ## Soal No 1
+
+# In[ ]:
+
+
+n = 19
+
+if n == 19:
+    print("Bilangan ganjil")
+else:
+    print("bilangan genap")
+
+
+# ## Soal No 2
+
+# In[ ]:
+
+
+no2 = int(input("Masukkan sisinya ="))
+
+if no2 >=3 and no2 <= 10:
+    print("Ilmunya sudah sampai")
+else:
+    print("ilmu saya belum sampai situ")
+
+
+# ## soal no  3
+
+# In[ ]:
+
+
+no3 = float(input("kekuatan gempa (Magnitude) = "))
+
+if no3 < 2.0:
+    print("Micro")
+elif no3 >= 2.0 and no3 < 3.0:
+    print("very minor")
+elif no3 >= 3.0 and no3 < 4.0:
+    print("Minor")
+elif no3 >= 4.0 and no3 < 5.0:
+    print("Light")
+elif no3 >= 5.0 and no3 < 6.0:
+    print("Moderate")
+elif no3 >= 6.0 and no3 < 7.0:
+    print("Strong")
+elif no3 >= 7.0 and no3 < 8.0:
+    print("Major")
+elif no3 >= 8.0 and no3 < 10.0:
+    print("Great")
+elif no3 >= 10.0:
+    print("Meteoric")
+
+
+# ## Soal No 4
+
+# In[ ]:
+
+
+warna = int(input("panjang gelombang cahaya (nm) = "))
+
+if warna >= 380 and warna < 450:
+    print("spektrum yang terlihat adalah Violet")
+elif warna >= 450 and warna < 495:
+    print("spektrum yang terlihat adalah Blue")
+elif warna >= 495 and warna < 570:
+    print("spektrum yang terlihat adalah Green")
+elif warna >= 570 and warna < 590:
+    print("spektrum yang terlihat adalah Yellow")
+elif warna >= 590 and warna < 620:
+    print("spektrum yang terlihat adalah Orange")
+elif warna >= 620 and warna <=  720:
+    print("spektrum yang terlihat adalah Red")
+else:
+    print("input kamu diluar spektrum yang diketahui…!!")
+
+
+# ## Soal No 5
+
+# In[ ]:
+
+
+tahun = int(input("Input tahun: "))
+
+if (tahun % 4) == 0:
+    print ("Tahun Kabisat")
+elif (tahun % 100) == 0:
+    print("Bukan tahun kabisat")
+elif (tahun % 400) == 0:
+    print ("Tahun Kabisat")
+else:
+    print("Bukan tahun kabisat")
+
+
+# ## Soal No 6
+
+# In[ ]:
+
+
+
+
+
+# In[10]:
+
+
+angka = int(input("berapa angka yang mau dimasukkan = "))
+total = 0
+
+for angka_baru in range(angka):
+    nilai = int(input("masukkan angkanya = "))
+    total = total + nilai
+rata_rata = (total/angka)
+print("rata-rata = ",rata_rata)
+
+
+# ## Soal No 7
+
+# In[ ]:
+
+
+umur = int(input("Masukkan umur anda = "))
+umuran = 0
+
+for umur_baru in range(umur):
+    nilai = int(input("masukkan angkanya = "))
+    if nilai >= 2:
+        print("Gratis")
+    elif  nilai >= 3 and nilai <= 12:
+        print("Anak-anak harus membayar $14.00")
+    elif nilai >=65:
+        print("Lansia umur {} bayar $18.00")
+
+total = nilai+umur
+print("total = ",total)
+
+
+# In[9]:
+
+
+jumlah = total
+while True:
+    nilai = int(input("Masukkan angka = "))
+    if nilai >= 2:
+        print("Gratis")
+    elif  nilai >= 3 and nilai <= 12:
+        print("Anak-anak harus membayar $14.00")
+    elif nilai >=65:
+        print("Lansia umur {} bayar $18.00")
+        jumlah +=nilai
+    else:
+        print("salah goblok")
+print(jumlah)
+
+
+# In[ ]:
+
+
+
+
